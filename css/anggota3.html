@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Ikhsan</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #492828;
+      --line: #6b6f2a;
+      --bg: #ECECEC;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Open Sans", sans-serif;
+      background-color: var(--bg);
+      color: var(--primary);
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .judul-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .judul-wrapper::before,
+    .judul-wrapper::after {
+      content: "";
+      flex: 1;
+      height: 3px;
+      background-color: var(--line);
+    }
+
+    .judul-wrapper::before {
+      margin-right: 20px;
+    }
+
+    .judul-wrapper::after {
+      margin-left: 20px;
+    }
+
+    .judul {
+      font-family: "Bungee", sans-serif;
+      padding: 10px 30px;
+      border: 3px solid var(--line);
+      border-radius: 50px;
+    }
+
+    /* Card */
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 3px solid var(--line);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 450px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 6px 6px 0 var(--line);
+    }
+
+    .foto {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .nama {
+      font-family: "Bungee", sans-serif;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .nim {
+      font-size: 14px;
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .deskripsi {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* tombol kembali */
+    .back {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 8px 20px;
+      border: 2px solid var(--line);
+      border-radius: 20px;
+      text-decoration: none;
+      color: var(--line);
+      transition: 0.3s;
+    }
+
+    .back:hover {
+      background-color: var(--line);
+      color: white;
+    }
+    .ig {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 20px;
+  border: 2px solid #6b6f2a;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #6b6f2a;
+  transition: 0.3s;
+}
+
+.ig:hover {
+  background-color: #6b6f2a;
+  color: white;
+}
+
+  </style>
+  </head>
+  
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="judul-wrapper">
+      <div class="judul">PROFIL ANGGOTA</div>
+    </div>
+  </div>
+
+  <!-- Card Profil -->
+  <div class="container">
+    <div class="card">
+
+     <img src="../fathiya.jpeg" class="foto" alt="Fotp fathiya">
+
+      <div class="nama">Fathiyah balqis ulya</div>
+
+      <div class="nim">NIM: 253140707111095</div>
+
+      <div class="deskripsi">
+        Fathiyah balqis ulya, Berasal dari sma 5 Bengkulu, Lahir pada tanggal 1 September 2005. Ia memiliki ketertarikan yang tinggi 
+        dalam dunia teknologi, khususnya di bidang Web3. Ketertarikan tersebut 
+        menjadi salah satu alasan utama ia memilih untuk melanjutkan pendidikan 
+        di bidang Teknologi Informasi (TI) Vokasi UB.
+      </div>
+
+      <a href="../index.html" class="back">← Kembali</a>
+     <a href="https://instagram.com/username_fathiyyahbalqis" target="_blank" class="ig">
+  📸 Instagram
+</a>
+    </div>
+  </div>
+
+</body>
+</html>
