@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/biarkankamimemasak_pemweb/static/css/main.b49041ed.css",
+    "main.js": "/biarkankamimemasak_pemweb/static/js/main.a891d9e9.js",
+    "static/js/453.1e3562d5.chunk.js": "/biarkankamimemasak_pemweb/static/js/453.1e3562d5.chunk.js",
+    "index.html": "/biarkankamimemasak_pemweb/index.html",
+    "main.b49041ed.css.map": "/biarkankamimemasak_pemweb/static/css/main.b49041ed.css.map",
+    "main.a891d9e9.js.map": "/biarkankamimemasak_pemweb/static/js/main.a891d9e9.js.map",
+    "453.1e3562d5.chunk.js.map": "/biarkankamimemasak_pemweb/static/js/453.1e3562d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b49041ed.css",
+    "static/js/main.a891d9e9.js"
+  ]
+}
